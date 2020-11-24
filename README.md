@@ -63,7 +63,7 @@ Before building, add paths for jszip in compilerOptions AND set resolveJsonModul
 
 In angular.json, to avoid CommonJs warnings, add __allowedCommonJsDependencies__ in the options section for __file-saver__:
 
-```json
+```bash
 "builder": "@angular-devkit/build-angular:browser",
           "options": {
             ...
@@ -73,11 +73,11 @@ In angular.json, to avoid CommonJs warnings, add __allowedCommonJsDependencies__
             ...
 ```
 
-## Updating to latest Angular 10
+## Updating to latest Angular 11
 
-This app is on Angular 10. Before starting an update, always commit first any valid open changes
+This app is on Angular 11. Before starting an update, always commit first any valid open changes
 
-update to latest Angular 10:
-`ng update @angular/cli@10 @angular/core@10`
+update to latest Angular 11:
+`ng update @angular/cli@11 @angular/core@11`
 
 Follow the instructions eventualy to fixes and test good working app
